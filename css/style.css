@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    background: #6C6B6B
+}
+
+.box {
+    width: 800px;
+    height: 640px;
+    margin: auto;
+    background: #758B6C
+}
+
+.header {
+    height: 80px;
+    background: #61976A
+}
+
+.menu {
+    height: 40px;
+}
+
+.menu ul {
+    height: 40px;
+}
+
+.menu ul li {
+    margin-right: 10px;
+    float: left;
+    list-style-type: none;
+    background-color: #81d3be;
+
+}
+
+.menu ul li a {
+    display: block;
+    padding: 8px;
+    color: brown;
+    text-decoration: none;
+
+}
+
+.menu ul li a:hover {
+    background-color: aqua;
+}
+
+.main {
+    height: 520px;
+    background: #5D643D
+}
+
+.main_left {
+    width: 400px;
+    height: 520px;
+    float: left;
+    background-color: aquamarine;
+}
+
+.main_right {
+    width: 400px;
+    height: 520px;
+    float: right;
+    background-color: cyan;
+}
+
+.footer {
+    height: 50px;
+    background: #386069
+}
